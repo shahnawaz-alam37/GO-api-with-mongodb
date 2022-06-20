@@ -89,7 +89,7 @@ func deleteAllmovie()  int64{
 }
 
 //get all movies
-func getAllmovies() {
+func getAllmovies() []primitive.M {
 	cur, err := collection.Find(context.Background(),bson.D{{}})
 	if err != nil {
 		log.Fatal(err)
