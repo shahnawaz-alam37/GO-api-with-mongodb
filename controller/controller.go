@@ -16,8 +16,8 @@ import (
 	
 )
 
-const connectionString = "mongodb+srv://shahnawaz:alam1234@cluster0.fdzblgv.mongodb.net/?retryWrites=true&w=majority"
-const dbName = "netflix"
+const connectionString = "mongodb+srv://shahnawaz:<password>@cluster0.fdzblgv.mongodb.net/?retryWrites=true&w=majority"
+const dbName = "netflix"			//before running, enter the valid password
 const colName = "watchlist"
 
 
@@ -108,7 +108,7 @@ func getAllmovies() []primitive.M {
 	return movies
 
 }
-
+////////////////////////////////////////////////////////////////////
 //actual controller 
 func Getmyallmovies(w http.ResponseWriter, r *http.Request){
 	w.Header().Set("content-Type","application/x-www-form-urlencode")
