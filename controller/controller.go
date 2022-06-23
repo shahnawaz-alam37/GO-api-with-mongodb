@@ -16,8 +16,8 @@ import (
 	
 )
 
-const connectionString = "mongodb+srv://shahnawaz:alam1234@cluster0.fdzblgv.mongodb.net/?retryWrites=true&w=majority"
-const dbName = "netflix"
+const connectionString = "mongodb+srv://shahnawaz:<password>@cluster0.fdzblgv.mongodb.net/?retryWrites=true&w=majority"
+const dbName = "netflix"			//enter the valid password before testing
 const colName = "watchlist"
 
 
