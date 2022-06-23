@@ -17,8 +17,8 @@ import (
 )
 
 const connectionString = "mongodb+srv://shahnawaz:<password>@cluster0.fdzblgv.mongodb.net/?retryWrites=true&w=majority"
-const dbName = "netflix"			//enter the valid password before testing
-const colName = "watchlist"
+const dbName = "netflix"	           //the above URI is invalid. Create a new cluster and get the 
+const colName = "watchlist"			   //from Mongodb to connect to the database
 
 
 //important
