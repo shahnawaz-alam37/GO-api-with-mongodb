@@ -16,8 +16,8 @@ import (
 	
 )
 
-const connectionString = "mongodb+srv://shahnawaz:<password>@cluster0.fdzblgv.mongodb.net/?retryWrites=true&w=majority"
-const dbName = "netflix"			//before running, enter the valid password
+const connectionString = "//create a cluster in mongodb atlas and paste the api link here."
+const dbName = "netflix"	
 const colName = "watchlist"
 
 
